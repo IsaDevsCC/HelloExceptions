@@ -4,16 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f72a2fa4-1f4a-4de3-a3c2-4c4c53624ca3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/EjercicioException/ExceptionClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/EjercicioException/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/MainDemo.java" afterDir="false" />
+    <list default="true" id="f72a2fa4-1f4a-4de3-a3c2-4c4c53624ca3" name="Changes" comment="add">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/TestExcepctions/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/TestExcepctions/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/customerException/EjemploClase/InvalidNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/customerException/EjemploClase/InvalidPostalCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/customerException/EjemploClase/MainDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/customerException/Exceptiones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ironhack/customerException/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,17 +44,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.editor"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.ironhack.EjercicioException.Main">
+  <component name="RunManager" selected="Application.MainDemo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ironhack.Main" />
       <module name="HelloExceptions" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ironhack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.customerException.EjemploClase.MainDemo" />
+      <module name="HelloExceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.customerException.EjemploClase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -74,8 +90,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.ironhack.customerException.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ironhack.customerException.Main" />
+      <module name="HelloExceptions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ironhack.customerException.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDemo" />
+        <item itemvalue="Application.com.ironhack.customerException.Main" />
         <item itemvalue="Application.com.ironhack.EjercicioException.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -89,8 +120,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656746450720</updated>
-      <workItem from="1656746452718" duration="7099000" />
+      <workItem from="1656746452718" duration="12230000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1656754750408</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656754750408</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,5 +145,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <option name="LAST_COMMIT_MESSAGE" value="add" />
   </component>
 </project>
